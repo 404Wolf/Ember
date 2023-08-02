@@ -1,0 +1,60 @@
+{
+    "general": {
+        "vpsBootTime": 10,
+        "accountsPer": 2,
+        "colour": 15157547,
+        "visibleQueueCap": 40,
+        "emberThumbnail": "https://media.discordapp.net/attachments/836866966585212937/869681055286845461/download.png",
+        "botStatusWebhook": "https://discord.com/api/webhooks/923023128374968360/hpIC_104zxlELxyK-aJLwFQDBzloSf0_e3kS6tfmU3Ouq239B5ZqFNATKxtAS_1WnQbZ",
+        "queueLogWebhook": "https://discord.com/api/webhooks/923022971004682260/pZcxcdrVTC4PbEcHrVJjPHRHuqQQgo1ORz4BYOZDnIhq2WDBcNs05pMJUgzDNVk3x-oQ"
+    },
+    "api": {
+        "port": 7000,
+        "ip": "96.250.198.104",
+        "login": {
+            "username": "admin",
+            "password": "[brfc&PuV.j]ZCLUMY|+([UHrL3jGzxt"
+        }
+    },
+    "discord": {
+        "token": "OTIxODU5MzM0NTc1NjMyNDI0.Yb5CaA.-Wvdt5SZaeA7YY-XiTntdRjEHeI",
+        "clientId": 921859334575632424,
+        "server": 921857475685285919,
+        "channels": {
+            "namemc": [
+                922974838526738473,
+                921891902293422121,
+                921891947424145478,
+                921891961831563324,
+                921891979221172235,
+                929592735353155705,
+                929592753124421672,
+                929592766659432508,
+                929592778579640380,
+                929592791582011452
+            ],
+            "queue": 922240811834421339,
+            "botChat": 924176563493290005
+        }
+    },
+    "sniper": {
+        "requestsPerBearer": 2,
+        "vultr": {
+            "bearer": "HR6BZZWSM3AILUW6WQPIWEYZZ5622ECEJMOQ",
+            "snapshotPassword": "-3Gu}?t-f,koz}8=",
+            "snapshotId": "3e1fb5d3-c201-41a0-a5eb-08996089c4fa",
+            "region": "ewr",
+            "plan": "vc2-1c-1gb"
+        },
+        "setupCommands": [
+            "chronyc makestep",
+            "screen -dmS snipe",
+            "screen -S snipe -p 0 -X stuff 'python3 sniper.py\n'"
+        ],
+        "vpsStatusWebhook": "https://discord.com/api/webhooks/923023231173152798/xKVXU9BOhjyw2wTL7odFQpuVwGfbIf8KAaATK9aXLlJi-vm9Hzqq9hvg57EFGdvfLufR",
+        "successSnipeWebhook": "https://discord.com/api/webhooks/918691929452060743/PU1P9b_ZhY-diAQEMv0wv1Hp8RaBuLMtmoKXncXIFUswtt4bB7Es20zgZZSeutOnGW10",
+        "successSnipeLogWebhook": "https://discord.com/api/webhooks/923023351310581800/765els-bSaPKesRu8uPNgETsEKgzXV_xtTDSWk8zUyZxBXiKCy4ejZO5tnk1jfKXQ505",
+        "delayLogWebhook": "https://discord.com/api/webhooks/923023606655627284/jnmugbalsBss5OqSqE7AV_xvq5eRRkT83e1LHd2_16uQqwmuKA8nkevb6ZqVi8CL82P-",
+        "skinTextureUrl": "http://textures.minecraft.net/texture/1f0195c04b0666c3ad0f8b6d11f1ff8f14e49a9709b883efad7f521c00d1af18"
+    }
+}

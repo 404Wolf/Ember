@@ -1,0 +1,14 @@
+IGN: {ign}
+
+Login:
+	Name: {name}
+	Email: {email}
+	Password: {password}
+
+OGI:
+	Creation IP: {ip}
+	DOB: {dob}
+	Gamertag: {gamertag}
+	TID: {tid}
+	Recovery Code: {recovery}
+	Created At: {created at}

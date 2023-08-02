@@ -1,0 +1,409 @@
+23:28:41,35 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:28:41,58 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 1983
+23:28:41,61 asyncio DEBUG Using selector: EpollSelector
+23:28:43,598 root INFO Bot has booted
+23:32:25,777 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:32:25,799 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 1983
+23:32:25,801 asyncio DEBUG Using selector: EpollSelector
+23:32:28,220 root INFO Bot has booted
+23:33:25,420 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:33:25,445 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 1983
+23:33:25,452 asyncio DEBUG Using selector: EpollSelector
+23:33:27,840 root INFO Bot has booted
+23:43:51,795 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:44:31,249 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:45:34,600 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:53:56,240 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:53:56,266 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 1983
+23:53:56,269 asyncio DEBUG Using selector: EpollSelector
+23:53:58,592 root INFO Bot has booted
+23:57:16,255 asyncio ERROR Unhandled exception during Client.run shutdown.
+task: <Task finished name='Task-18' coro=<queueEmbed() done, defined at /home/ubuntu/projects/ember/discord/utils/tasks.py:7> exception=ClientConnectionError('Connector is closed.')>
+Traceback (most recent call last):
+  File "/home/ubuntu/projects/ember/discord/utils/tasks.py", line 127, in queueEmbed
+    pass
+  File "/usr/lib/python3.9/asyncio/tasks.py", line 655, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/projects/ember/discord/utils/tasks.py", line 129, in queueEmbed
+    await asyncio.sleep(2.25)
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/discord/message.py", line 1352, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **payload)
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/discord/http.py", line 276, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/connector.py", line 538, in connect
+    raise ClientConnectionError("Connector is closed.")
+aiohttp.client_exceptions.ClientConnectionError: Connector is closed.
+23:57:20,737 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:57:20,762 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 1983
+23:57:20,765 asyncio DEBUG Using selector: EpollSelector
+23:57:23,228 root INFO Bot has booted
+23:58:06,759 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:58:06,780 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 1983
+23:58:06,786 asyncio DEBUG Using selector: EpollSelector
+23:58:09,281 root INFO Bot has booted
+23:58:40,287 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:58:40,308 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 1983
+23:58:40,310 asyncio DEBUG Using selector: EpollSelector
+23:58:43,357 root INFO Bot has booted
+23:59:05,87 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+23:59:05,116 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 1983
+23:59:05,119 asyncio DEBUG Using selector: EpollSelector
+23:59:07,482 root INFO Bot has booted
+23:59:55,927 root DEBUG Get queue request status code: 200
+23:59:55,944 root DEBUG Remove target from queue status code: 200
+23:59:57,946 root DEBUG Add name back to queue status code: 200
+00:00:22,558 root DEBUG Get queue request status code: 200
+00:00:22,579 root DEBUG Remove target from queue status code: 200
+00:00:24,767 root DEBUG Add name back to queue status code: 200
+00:00:37,63 root DEBUG Get queue request status code: 200
+00:00:37,78 root DEBUG Remove target from queue status code: 200
+00:00:39,171 root DEBUG Add name back to queue status code: 200
+00:00:55,940 root DEBUG Get queue request status code: 200
+00:00:55,963 root DEBUG Remove target from queue status code: 200
+00:00:58,225 root DEBUG Add name back to queue status code: 200
+00:01:07,409 root DEBUG Get queue request status code: 200
+00:01:07,425 root DEBUG Remove target from queue status code: 200
+00:01:09,583 root DEBUG Add name back to queue status code: 200
+03:05:50,230 root DEBUG Get queue request status code: 200
+03:05:50,247 root DEBUG Remove target from queue status code: 200
+03:07:32,80 root CRITICAL Error: unknown error
+03:07:32,180 asyncio ERROR Unhandled exception during Client.run shutdown.
+task: <Task finished name='Task-18' coro=<queueEmbed() done, defined at /home/ubuntu/projects/ember/discord/utils/tasks.py:7> exception=ClientConnectionError('Connector is closed.')>
+Traceback (most recent call last):
+  File "/home/ubuntu/projects/ember/discord/utils/tasks.py", line 132, in queueEmbed
+    await asyncio.sleep(2.25)
+  File "/usr/lib/python3.9/asyncio/tasks.py", line 655, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/projects/ember/discord/utils/tasks.py", line 134, in queueEmbed
+    await queueEmbed.edit(
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/discord/message.py", line 1352, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **payload)
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/discord/http.py", line 276, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/connector.py", line 538, in connect
+    raise ClientConnectionError("Connector is closed.")
+aiohttp.client_exceptions.ClientConnectionError: Connector is closed.
+03:07:35,379 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+03:07:35,415 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 1983
+03:07:35,420 asyncio DEBUG Using selector: EpollSelector
+03:07:37,963 root INFO Bot has booted
+04:03:24,678 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+04:03:24,702 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 1981
+04:03:24,705 asyncio DEBUG Using selector: EpollSelector
+04:03:27,791 root INFO Bot has booted
+04:03:40,209 root INFO Added "Particular" to queue with offsets between 36ms and 37.48ms
+04:08:16,679 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+04:34:46,843 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+04:34:46,873 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 2081
+04:34:46,875 asyncio DEBUG Using selector: EpollSelector
+04:34:49,255 root INFO Bot has booted
+04:38:20,32 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+04:38:20,56 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 2081
+04:38:20,58 asyncio DEBUG Using selector: EpollSelector
+04:40:24,481 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+04:40:24,507 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 2081
+04:40:24,510 asyncio DEBUG Using selector: EpollSelector
+04:40:27,485 root INFO Bot has booted
+04:41:03,148 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+04:41:03,172 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 2081
+04:41:03,174 asyncio DEBUG Using selector: EpollSelector
+04:41:05,636 root INFO Bot has booted
+04:42:30,903 root DEBUG Get queue request status code: 200
+04:42:30,921 root DEBUG Remove target from queue status code: 200
+04:42:33,10 root DEBUG Add name back to queue status code: 200
+08:50:28,490 root DEBUG Get queue request status code: 200
+08:50:28,548 root DEBUG Remove target from queue status code: 200
+08:50:30,645 root DEBUG Add name back to queue status code: 200
+08:51:06,579 root DEBUG Get queue request status code: 200
+08:51:06,607 root DEBUG Remove target from queue status code: 200
+08:51:08,681 root DEBUG Add name back to queue status code: 200
+08:51:44,775 root DEBUG Get queue request status code: 200
+08:51:44,793 root DEBUG Remove target from queue status code: 200
+08:51:47,35 root DEBUG Add name back to queue status code: 200
+03:44:11,770 root INFO Removed "Quenched" from queue
+06:57:46,203 root DEBUG Get queue request status code: 200
+06:57:46,251 root DEBUG Remove target from queue status code: 200
+06:57:48,344 root DEBUG Add name back to queue status code: 200
+06:57:57,899 root DEBUG Get queue request status code: 200
+06:57:57,943 root DEBUG Remove target from queue status code: 200
+06:57:59,990 root DEBUG Add name back to queue status code: 500
+06:57:59,991 root CRITICAL Error: failed request (received status codes `[{'get queue req': 200}, {'remove from queue req': 200}]`)
+06:58:39,297 root CRITICAL Failed to add "olv" to queue (status code 400)
+06:58:39,298 root CRITICAL Error: "olv" is not dropping or it is too close to the drop
+06:58:57,889 root DEBUG Get queue request status code: 200
+06:58:57,911 root DEBUG Remove target from queue status code: 200
+06:59:00,3 root DEBUG Add name back to queue status code: 200
+06:59:13,654 root INFO Added "Natures" to queue with offsets between 34ms and 39ms
+07:00:03,659 root INFO Added "Admission" to queue with offsets between 36ms and 38ms
+07:00:26,856 root INFO Added "CottonCandy" to queue with offsets between 36ms and 38ms
+07:03:36,803 root INFO Added "Nemesis" to queue with offsets between 35ms and 37.8ms
+07:05:00,711 root INFO Added "Frazzle" to queue with offsets between 35ms and 38.67ms
+07:05:43,909 root CRITICAL Failed to add "Overflow" to queue (status code 208)
+07:05:43,910 root CRITICAL Error: "Overflow" is already in queue
+07:05:59,562 root INFO Added "Moaning" to queue with offsets between 35ms and 39ms
+03:23:07,571 root DEBUG Get queue request status code: 200
+03:23:07,588 root DEBUG Remove target from queue status code: 200
+03:23:09,740 root DEBUG Add name back to queue status code: 200
+03:23:26,493 root DEBUG Get queue request status code: 200
+03:23:26,511 root DEBUG Remove target from queue status code: 200
+03:23:30,648 root DEBUG Add name back to queue status code: 200
+03:23:30,720 root CRITICAL Error: unknown error
+03:23:50,439 root DEBUG Get queue request status code: 200
+03:23:50,476 root DEBUG Remove target from queue status code: 200
+03:23:52,783 root DEBUG Add name back to queue status code: 200
+20:15:34,472 root DEBUG Get queue request status code: 200
+20:15:34,496 root DEBUG Remove target from queue status code: 200
+20:16:27,22 root CRITICAL Error: unknown error
+20:16:46,88 root INFO Added "uky" to queue with offsets between 36ms and 37.2ms
+20:17:48,215 root DEBUG Get queue request status code: 200
+20:17:48,232 root DEBUG Remove target from queue status code: 200
+20:17:50,287 root DEBUG Add name back to queue status code: 200
+21:51:55,485 root DEBUG Get queue request status code: 200
+21:51:55,518 root DEBUG Remove target from queue status code: 200
+21:51:57,791 root DEBUG Add name back to queue status code: 200
+02:37:37,422 root DEBUG Get queue request status code: 200
+02:37:37,438 root DEBUG Remove target from queue status code: 200
+02:37:39,574 root DEBUG Add name back to queue status code: 200
+02:37:54,104 root DEBUG Get queue request status code: 200
+02:37:54,127 root DEBUG Remove target from queue status code: 200
+02:37:56,351 root DEBUG Add name back to queue status code: 200
+06:32:08,805 root INFO Added "OrangeJuice" to queue with offsets between 36ms and 37.86ms
+23:13:10,28 root DEBUG Get queue request status code: 200
+23:13:10,44 root DEBUG Remove target from queue status code: 200
+23:13:13,235 root DEBUG Add name back to queue status code: 200
+23:13:13,296 root CRITICAL Error: unknown error
+23:13:17,955 root DEBUG Get queue request status code: 200
+23:13:17,975 root DEBUG Remove target from queue status code: 200
+23:13:20,102 root DEBUG Add name back to queue status code: 200
+13:51:27,659 root DEBUG Get queue request status code: 200
+13:51:27,699 root DEBUG Remove target from queue status code: 200
+13:51:29,911 root DEBUG Add name back to queue status code: 200
+13:51:44,486 root DEBUG Get queue request status code: 200
+13:51:44,505 root DEBUG Remove target from queue status code: 200
+13:51:46,610 root DEBUG Add name back to queue status code: 200
+14:13:09,419 root DEBUG Get queue request status code: 200
+14:13:09,438 root DEBUG Remove target from queue status code: 200
+14:13:11,499 root DEBUG Add name back to queue status code: 200
+18:58:47,242 root DEBUG Get queue request status code: 200
+18:58:47,265 root DEBUG Remove target from queue status code: 200
+18:58:49,495 root DEBUG Add name back to queue status code: 200
+21:14:39,735 root DEBUG Get queue request status code: 200
+21:14:39,751 root DEBUG Remove target from queue status code: 200
+21:14:42,175 root DEBUG Add name back to queue status code: 200
+21:15:19,117 root DEBUG Get queue request status code: 200
+21:15:19,143 root DEBUG Remove target from queue status code: 200
+21:15:21,331 root DEBUG Add name back to queue status code: 200
+22:53:22,911 root CRITICAL Error: unknown error
+22:53:37,635 root CRITICAL Error: unknown error
+22:58:50,789 root DEBUG Get queue request status code: 200
+22:58:50,807 root DEBUG Remove target from queue status code: 200
+22:58:53,40 root DEBUG Add name back to queue status code: 200
+22:58:57,907 root DEBUG Get queue request status code: 200
+22:58:57,924 root DEBUG Remove target from queue status code: 200
+22:59:00,39 root DEBUG Add name back to queue status code: 200
+06:40:23,154 root DEBUG Get queue request status code: 200
+06:40:23,181 root DEBUG Remove target from queue status code: 200
+06:40:25,391 root DEBUG Add name back to queue status code: 200
+04:51:21,849 root CRITICAL Failed to add "Test" to queue (status code 400)
+04:51:21,850 root CRITICAL Error: "Test" is not dropping or it is too close to the drop
+04:51:37,335 root INFO Added "Test" to queue with offsets between 30ms and 36ms
+04:54:22,237 root INFO Removed "Airbrushed" from queue
+04:57:29,940 root INFO Added "Horrifying" to queue with offsets between 34ms and 37.5ms
+04:57:30,484 root CRITICAL Failed to add "Horrifying" to queue (status code 208)
+04:57:30,485 root CRITICAL Error: "Horrifying" is already in queue
+04:57:33,995 root CRITICAL Failed to add "Horrifying" to queue (status code 208)
+04:57:33,996 root CRITICAL Error: "Horrifying" is already in queue
+04:57:59,123 root INFO Added "Slimesicle" to queue with offsets between 34.9ms and 36.6ms
+04:58:09,477 root DEBUG Get queue request status code: 200
+04:58:09,505 root DEBUG Remove target from queue status code: 200
+04:58:11,593 root DEBUG Add name back to queue status code: 200
+19:37:00,359 root INFO Added "2sr" to queue with offsets between 34ms and 39ms
+19:37:28,595 root INFO Added "40r" to queue with offsets between 34ms and 39ms
+19:38:04,797 root INFO Added "73k" to queue with offsets between 34ms and 39ms
+19:38:05,245 root CRITICAL Failed to add "73k" to queue (status code 208)
+19:38:05,246 root CRITICAL Error: "73k" is already in queue
+19:38:08,667 root CRITICAL Failed to add "73k" to queue (status code 208)
+19:38:08,667 root CRITICAL Error: "73k" is already in queue
+19:40:14,774 root INFO Removed "2sr" from queue
+08:43:50,986 root INFO Removed "73k" from queue
+08:44:21,357 root DEBUG Get queue request status code: 200
+08:44:21,383 root DEBUG Remove target from queue status code: 200
+08:44:23,682 root DEBUG Add name back to queue status code: 200
+00:08:36,942 root INFO Added "Kickflip" to queue with offsets between 34.3ms and 36.9ms
+00:08:37,487 root CRITICAL Failed to add "Kickflip" to queue (status code 208)
+00:08:37,488 root CRITICAL Error: "Kickflip" is already in queue
+00:15:31,879 root INFO Removed "Kickflip" from queue
+00:15:45,22 root INFO Added "kickflip" to queue with offsets between 34.3ms and 36.9ms
+00:29:35,959 root INFO Added "Kickflip" to queue with offsets between 34.4ms and 36.9ms
+00:30:05,475 root INFO Removed "kickflip" from queue
+02:19:10,792 root DEBUG Get queue request status code: 200
+02:19:10,807 root DEBUG Remove target from queue status code: 200
+02:19:12,909 root DEBUG Add name back to queue status code: 200
+02:19:36,390 root DEBUG Get queue request status code: 200
+02:19:36,409 root DEBUG Remove target from queue status code: 200
+02:19:40,719 root DEBUG Add name back to queue status code: 200
+02:19:40,817 root CRITICAL Error: unknown error
+02:20:06,850 root DEBUG Get queue request status code: 200
+02:20:06,865 root DEBUG Remove target from queue status code: 200
+02:20:09,78 root DEBUG Add name back to queue status code: 200
+02:50:58,440 asyncio ERROR Unhandled exception during Client.run shutdown.
+task: <Task finished name='Task-18' coro=<queueEmbed() done, defined at /home/ubuntu/projects/ember/discord/utils/tasks.py:7> exception=ClientConnectionError('Connector is closed.')>
+Traceback (most recent call last):
+  File "/home/ubuntu/projects/ember/discord/utils/tasks.py", line 127, in queueEmbed
+    await asyncio.sleep(2.25)
+  File "/usr/lib/python3.9/asyncio/tasks.py", line 655, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/projects/ember/discord/utils/tasks.py", line 129, in queueEmbed
+    await queueEmbed.edit(
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/discord/message.py", line 1352, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, **payload)
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/discord/http.py", line 276, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/connector.py", line 538, in connect
+    raise ClientConnectionError("Connector is closed.")
+aiohttp.client_exceptions.ClientConnectionError: Connector is closed.
+02:51:02,350 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+02:51:02,376 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 2082
+02:51:02,379 asyncio DEBUG Using selector: EpollSelector
+02:51:05,437 root INFO Bot has booted
+02:54:56,364 root WARNING ['"Teen" [208]', '"Risk" [208]', '"Overflow" [208]']
+04:29:48,782 root DEBUG Get queue request status code: 200
+04:29:48,809 root DEBUG Remove target from queue status code: 200
+04:29:50,827 root DEBUG Add name back to queue status code: 200
+05:43:23,329 root WARNING ['"Acetone" [208]', '"Superintendent" [208]', '"Jaywalk" [208]', '"Kudo" [208]', '"Deuce" [208]', '"Teen" [208]', '"Risk" [208]', '"Rez" [208]', '"moneybags" [208]', '"Believable" [208]', '"Overflow" [208]']
+05:44:04,560 root DEBUG Get queue request status code: 200
+05:44:04,577 root DEBUG Remove target from queue status code: 200
+05:44:06,628 root DEBUG Add name back to queue status code: 200
+18:14:21,106 root INFO Removed "Nemesis" from queue
+20:24:23,579 root INFO Added "Defends" to queue with offsets between 32ms and 37ms
+05:35:20,305 root INFO Added "Aided" to queue with offsets between 30ms and 38ms
+18:51:50,207 root CRITICAL Failed to add "7fj" to queue (status code 400)
+18:51:50,207 root CRITICAL Error: "7fj" is not dropping or it is too close to the drop
+18:51:56,948 root CRITICAL Failed to add "7fj" to queue (status code 400)
+18:51:56,949 root CRITICAL Error: "7fj" is not dropping or it is too close to the drop
+18:52:12,408 root INFO Added "8sl" to queue with offsets between 20ms and 40ms
+18:56:56,135 root INFO Added "7fh" to queue with offsets between 20ms and 40ms
+18:56:59,840 root INFO Removed "8sl" from queue
+21:26:22,225 root INFO Added "8sl" to queue with offsets between 0ms and 40ms
+01:10:00,320 root INFO Added "ej9" to queue with offsets between 30ms and 70ms
+01:10:08,181 root INFO Added "g_u" to queue with offsets between 0ms and 50ms
+01:46:56,677 root INFO Added "impromptu" to queue with offsets between 30ms and 40ms
+02:08:28,480 root DEBUG Get queue request status code: 200
+02:08:28,500 root DEBUG Remove target from queue status code: 200
+02:08:30,595 root DEBUG Add name back to queue status code: 200
+07:12:18,699 root INFO Removed "ej9" from queue
+07:12:23,71 root INFO Removed "Kudo" from queue
+07:12:40,809 root DEBUG Get queue request status code: 200
+07:12:40,843 root DEBUG Remove target from queue status code: 200
+07:12:43,337 root DEBUG Add name back to queue status code: 200
+07:12:46,775 root DEBUG Get queue request status code: 200
+07:12:46,791 root DEBUG Remove target from queue status code: 200
+07:12:48,867 root DEBUG Add name back to queue status code: 200
+07:13:11,977 root DEBUG Get queue request status code: 200
+07:13:11,995 root DEBUG Remove target from queue status code: 200
+07:13:14,3 root DEBUG Add name back to queue status code: 200
+17:27:43,134 root INFO Removed "Slimesicle" from queue
+17:28:19,999 root DEBUG Get queue request status code: 200
+17:28:20,20 root DEBUG Remove target from queue status code: 200
+17:28:22,71 root DEBUG Add name back to queue status code: 200
+18:53:52,311 root INFO Added "Test" to queue with offsets between 30ms and 40ms
+18:57:29,15 root CRITICAL Failed to add "Test" to queue (status code 208)
+18:57:29,17 root CRITICAL Error: "Test" is already in queue
+18:57:38,522 root INFO Removed "Test" from queue
+18:57:40,441 root INFO Added "Test" to queue with offsets between 30ms and 40ms
+19:00:16,356 root INFO Removed "Test" from queue
+19:00:30,500 root INFO Added "Test" to queue with offsets between 30ms and 40ms
+19:13:44,18 root INFO Removed "Test" from queue
+19:15:53,53 root INFO Added "Test" to queue with offsets between 30ms and 40ms
+19:47:00,925 root CRITICAL Error: "test" was not in the queue to begin with
+19:47:03,763 root INFO Removed "Test" from queue
+19:47:13,835 root INFO Added "Test" to queue with offsets between 30ms and 40ms
+20:05:17,433 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+20:05:45,828 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+20:05:51,46 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+20:07:44,319 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+20:07:53,212 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+20:08:00,4 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+20:08:00,43 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 2082
+20:08:00,46 asyncio DEBUG Using selector: EpollSelector
+20:08:03,27 root INFO Bot has booted
+20:08:03,407 root INFO Removed "Test" from queue
+22:35:35,199 root WARNING ['"Rabia" [208]']
+03:13:51,191 root WARNING ['"Albino" [208]', '"Rubio" [208]', '"Rabia" [208]', '"Hasta" [208]', '"Enrique" [208]', '"Serio" [208]']
+04:34:47,763 root INFO Added "034" to queue with offsets between 35ms and 40ms
+04:34:56,132 root CRITICAL Failed to add "034" to queue (status code 208)
+04:34:56,132 root CRITICAL Error: "034" is already in queue
+04:35:13,169 root INFO Added "Aiden" to queue with offsets between 36ms and 40ms
+04:35:23,638 root INFO Added "Forgotten" to queue with offsets between 36ms and 40ms
+04:35:40,160 root INFO Added "Thief" to queue with offsets between 36ms and 40ms
+04:35:51,367 root INFO Added "Restrict" to queue with offsets between 36ms and 40ms
+04:36:22,127 root INFO Added "Triggered" to queue with offsets between 36ms and 40ms
+04:36:35,634 root INFO Added "Unspeakable" to queue with offsets between 36ms and 40ms
+04:36:57,907 root INFO Added "Gr8_Escape" to queue with offsets between 36ms and 40ms
+04:37:34,801 root INFO Added "Shield" to queue with offsets between 36ms and 40ms
+04:39:14,419 root WARNING ['"Unspeakable" [208]', '"Restrict" [208]', '"Theif" [400]', '"Forgotten" [208]', '"034" [208]', '"Triggered" [208]', '"Shield" [208]']
+04:39:31,917 root WARNING ['"Unspeakable" [208]', '"Restrict" [208]', '"Theif" [400]', '"Forgotten" [208]', '"034" [208]', '"Triggered" [208]', '"Shield" [208]', '"aux" [208]']
+04:39:39,863 root CRITICAL Failed to add "aux" to queue (status code 208)
+04:39:39,863 root CRITICAL Error: "aux" is already in queue
+16:15:56,723 root DEBUG Get queue request status code: 200
+16:15:56,747 root DEBUG Remove target from queue status code: 200
+16:15:58,932 root DEBUG Add name back to queue status code: 200
+01:52:51,440 root DEBUG Get queue request status code: 200
+01:52:51,455 root DEBUG Remove target from queue status code: 200
+01:52:53,526 root DEBUG Add name back to queue status code: 200
+02:01:21,850 asyncio ERROR Unhandled exception during Client.run shutdown.
+task: <Task finished name='Task-18' coro=<queueEmbed() done, defined at /home/ubuntu/projects/ember/discord/utils/tasks.py:7> exception=ClientOSError(1, '[SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2756)')>
+Traceback (most recent call last):
+  File "/home/ubuntu/projects/ember/discord/utils/tasks.py", line 127, in queueEmbed
+    await asyncio.sleep(2.25)
+  File "/usr/lib/python3.9/asyncio/tasks.py", line 655, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/projects/ember/discord/utils/tasks.py", line 129, in queueEmbed
+    await queueEmbed.edit(
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/discord/http.py", line 276, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/client_reqrep.py", line 890, in start
+    message, payload = await self._protocol.read()  # type: ignore
+  File "/home/ubuntu/.local/lib/python3.9/site-packages/aiohttp/streams.py", line 604, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2756)
+02:01:26,139 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 96.250.198.104:7000
+02:01:26,161 urllib3.connectionpool DEBUG http://96.250.198.104:7000 "GET /config HTTP/1.1" 200 2106
+02:01:26,171 asyncio DEBUG Using selector: EpollSelector
+02:01:28,599 root INFO Bot has booted

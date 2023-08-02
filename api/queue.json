@@ -1,0 +1,362 @@
+{
+   "Teen": {
+      "droptime": 1643433901.0,
+      "offsets": [
+         30,
+         33
+      ],
+      "addedAt": 1641444146.8186326
+   },
+   "Onesie": {
+      "droptime": 1643222030.0,
+      "offsets": [
+         30,
+         37
+      ],
+      "addedAt": 1641444146.8196795
+   },
+   "Risk": {
+      "droptime": 1643443764.0,
+      "offsets": [
+         -50,
+         45
+      ],
+      "addedAt": 1641444146.8210552
+   },
+   "Tornillo": {
+      "droptime": 1643353467.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.8347197
+   },
+   "Rabia": {
+      "droptime": 1643305080.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.8350618
+   },
+   "Ciega": {
+      "droptime": 1643322909.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.8352365
+   },
+   "dym": {
+      "droptime": 1643435410.0,
+      "offsets": [
+         31,
+         38
+      ],
+      "addedAt": 1641444146.8382814
+   },
+   "rez": {
+      "droptime": 1643507943.0,
+      "offsets": [
+         31,
+         38
+      ],
+      "addedAt": 1641444146.8384814
+   },
+   "wsz": {
+      "droptime": 1643517030.0,
+      "offsets": [
+         31,
+         38
+      ],
+      "addedAt": 1641444146.838705
+   },
+   "qlc": {
+      "droptime": 1643819115.0,
+      "offsets": [
+         31,
+         38
+      ],
+      "addedAt": 1641444146.8388748
+   },
+   "ykc": {
+      "droptime": 1643971190.0,
+      "offsets": [
+         31,
+         38
+      ],
+      "addedAt": 1641444146.8391252
+   },
+   "uln": {
+      "droptime": 1644016585.0,
+      "offsets": [
+         31,
+         38
+      ],
+      "addedAt": 1641444146.8419218
+   },
+   "frz": {
+      "droptime": 1644071718.0,
+      "offsets": [
+         31,
+         38
+      ],
+      "addedAt": 1641444146.8421507
+   },
+   "wmh": {
+      "droptime": 1644111434.0,
+      "offsets": [
+         31,
+         38
+      ],
+      "addedAt": 1641444146.842657
+   },
+   "yqm": {
+      "droptime": 1643400149.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.8433483
+   },
+   "cdt": {
+      "droptime": 1643066244.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.8435316
+   },
+   "vhp": {
+      "droptime": 1643936827.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.84384
+   },
+   "gjv": {
+      "droptime": 1643540806.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.8440092
+   },
+   "bmh": {
+      "droptime": 1643209193.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.8521972
+   },
+   "fxa": {
+      "droptime": 1643350565.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.852698
+   },
+   "whc": {
+      "droptime": 1643898929.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.8530612
+   },
+   "ols": {
+      "droptime": 1643640218.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.8531823
+   },
+   "tbg": {
+      "droptime": 1643865136.0,
+      "offsets": [
+         30,
+         38
+      ],
+      "addedAt": 1641444146.8534656
+   },
+   "Acetone": {
+      "droptime": 1643815039.0,
+      "offsets": [
+         34.5,
+         37.5
+      ],
+      "addedAt": 1642474477.3967268
+   },
+   "Superintendent": {
+      "droptime": 1643520062.0,
+      "offsets": [
+         34.5,
+         37.5
+      ],
+      "addedAt": 1642474479.7225235
+   },
+   "Jaywalk": {
+      "droptime": 1643220228.0,
+      "offsets": [
+         34.5,
+         37.5
+      ],
+      "addedAt": 1642474481.9333768
+   },
+   "Deuce": {
+      "droptime": 1643647948.0,
+      "offsets": [
+         34.5,
+         37.5
+      ],
+      "addedAt": 1642474486.461762
+   },
+   "Rez": {
+      "droptime": 1643507943.0,
+      "offsets": [
+         34.5,
+         37.5
+      ],
+      "addedAt": 1642474491.0025826
+   },
+   "moneybags": {
+      "droptime": 1643777992.0,
+      "offsets": [
+         34.5,
+         37.5
+      ],
+      "addedAt": 1642474493.1094503
+   },
+   "Believable": {
+      "droptime": 1643321846.0,
+      "offsets": [
+         34.5,
+         37.5
+      ],
+      "addedAt": 1642474495.2253737
+   },
+   "Albino": {
+      "droptime": 1644817828.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642890924.634893
+   },
+   "Rubio": {
+      "droptime": 1643475804.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642890926.9238417
+   },
+   "Enrique": {
+      "droptime": 1643507822.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642890932.92193
+   },
+   "Serio": {
+      "droptime": 1643198523.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642890935.1813369
+   },
+   "034": {
+      "droptime": 1643570322.0,
+      "offsets": [
+         35,
+         40
+      ],
+      "addedAt": 1642912487.7520993
+   },
+   "Aiden": {
+      "droptime": 1643665945.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642912513.1617434
+   },
+   "Forgotten": {
+      "droptime": 1643898219.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642912523.631209
+   },
+   "Thief": {
+      "droptime": 1644276939.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642912540.1513505
+   },
+   "Restrict": {
+      "droptime": 1644291346.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642912551.3516333
+   },
+   "Triggered": {
+      "droptime": 1644441435.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642912582.118929
+   },
+   "Unspeakable": {
+      "droptime": 1644704751.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642912595.6206627
+   },
+   "Gr8_Escape": {
+      "droptime": 1644829300.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642912617.899233
+   },
+   "Shield": {
+      "droptime": 1645637137.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642912654.7891471
+   },
+   "aux": {
+      "droptime": 1644863095.0,
+      "offsets": [
+         36,
+         40
+      ],
+      "addedAt": 1642912754.3938801
+   },
+   "impromptu": {
+      "droptime": 1643024824.0,
+      "offsets": [
+         37.4,
+         41.3
+      ],
+      "addedAt": 1642954558.9247227
+   }
+}

@@ -1,0 +1,8 @@
+aiohttp
+aiohttp_apispec
+asyncssh
+aiofiles
+marshmallow
+py-cord
+numpy
+pyOpenSSL
